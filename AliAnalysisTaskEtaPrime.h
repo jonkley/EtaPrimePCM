@@ -117,6 +117,9 @@ private:
     // persistent members are streamed (copied/stored)
     AliESDtrackCuts *fTrackCuts; // Track cuts
     
+    // test commit to see that everything works fine
+    // you can remove these lines afterwards
+    
     enum {kSelectedEvents=0, kVertexEvents, kVertexResDisp, kNbinsEvent};
     
 	AliAnalysisTaskEtaPrime(const AliAnalysisTaskEtaPrime&); // not implemented
